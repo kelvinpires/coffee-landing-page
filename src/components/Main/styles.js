@@ -59,7 +59,7 @@ export const CoffeeInfoText = styled.h2`
 export const CoffeeInfoButtonDiv = styled.div`
   display: flex;
   justify-content: center;
-  margin: 9rem 0 10rem 0;
+  margin: 5rem 0 6rem 0;
 `;
 
 export const CoffeeInfoButton = styled(Button)`
