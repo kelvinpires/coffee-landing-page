@@ -10,4 +10,7 @@
 
 ## Mobile
 
+<div>
 <img src="./src/assets/mobile_example.png" />
+<img src="./src/assets/mobile_menu_example.png" />
+</div>
