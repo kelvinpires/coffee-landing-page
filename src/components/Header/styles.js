@@ -47,6 +47,10 @@ export const MenuLi = styled.li`
   font-size: 1.6rem;
   font-weight: 500;
   font-family: "Manrope", sans-serif;
+
+  @media screen and (max-width: 700px) {
+    font-size: 2rem;
+  }
 `;
 
 export const MenuLink = styled.a`
