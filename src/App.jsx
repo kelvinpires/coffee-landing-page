@@ -3,7 +3,8 @@ import { Main } from "./components/Main";
 
 import BlurTopImg from "./assets/blur-2.png";
 import BlurBottomImg from "./assets/blur-1.png";
-import { AppContainer, BlurBottom, BlurTop } from "./AppStyles";
+import BlurMobileImg from "./assets/blur-mobile.png";
+import { AppContainer, BlurBottom, BlurMobile, BlurTop } from "./AppStyles";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Main />
       <BlurBottom src={BlurBottomImg} />
+      <BlurMobile src={BlurMobileImg} />
     </AppContainer>
   );
 }

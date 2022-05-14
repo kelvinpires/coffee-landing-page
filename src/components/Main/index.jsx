@@ -2,6 +2,9 @@ import React from "react";
 import RocketCoffeeImg from "../../assets/rocket-coffee.png";
 import {
   CoffeeImg,
+  CoffeeInfoButton,
+  CoffeeInfoContainer,
+  CoffeeInfoText,
   CustomTitle,
   MainContainer,
   NormalTitle,
@@ -11,6 +14,12 @@ import {
 export const Main = () => {
   return (
     <MainContainer>
+      <CoffeeInfoContainer>
+        <CoffeeInfoText>
+          O café que fará seu código decolar para o próximo nível.
+        </CoffeeInfoText>
+        <CoffeeInfoButton>PEGAR MEU CAFÉ</CoffeeInfoButton>
+      </CoffeeInfoContainer>
       <TitlesContainer>
         <NormalTitle>Great Coffee</NormalTitle>
         <CustomTitle children="<Great Code/>" />
