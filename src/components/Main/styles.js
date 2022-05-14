@@ -19,7 +19,7 @@ export const NormalTitle = styled.h1`
   line-height: 0.5;
 
   @media screen and (max-width: 700px) {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 `;
 
@@ -56,4 +56,13 @@ export const CoffeeInfoText = styled.h2`
   line-height: 4rem;
 `;
 
-export const CoffeeInfoButton = styled(Button)``;
+export const CoffeeInfoButtonDiv = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
+export const CoffeeInfoButton = styled(Button)`
+  @media screen and (max-width: 700px) {
+    display: block;
+  }
+`;

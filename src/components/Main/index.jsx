@@ -3,6 +3,7 @@ import RocketCoffeeImg from "../../assets/rocket-coffee.png";
 import {
   CoffeeImg,
   CoffeeInfoButton,
+  CoffeeInfoButtonDiv,
   CoffeeInfoContainer,
   CoffeeInfoText,
   CustomTitle,
@@ -18,7 +19,9 @@ export const Main = () => {
         <CoffeeInfoText>
           O café que fará seu código decolar para o próximo nível.
         </CoffeeInfoText>
-        <CoffeeInfoButton>PEGAR MEU CAFÉ</CoffeeInfoButton>
+        <CoffeeInfoButtonDiv>
+          <CoffeeInfoButton>PEGAR MEU CAFÉ</CoffeeInfoButton>
+        </CoffeeInfoButtonDiv>
       </CoffeeInfoContainer>
       <TitlesContainer>
         <NormalTitle>Great Coffee</NormalTitle>
